@@ -1,0 +1,71 @@
+*, html {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Rubik', sans-serif;
+    background-color: #7286D3;
+}
+
+
+#heading {
+    position: sticky;
+   
+}
+
+#tanggal {
+    font-size: large;
+    width: 290px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    border: 3px solid black;
+    box-shadow: 10px;
+    border-radius: 15px;
+    margin: auto;
+    margin-top: 30px;
+    padding: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+#mapel {
+    margin-top: 200px;
+}
+
+.JUDUL {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    margin-bottom: 20px;
+    text-shadow: 10px white;
+    text-shadow: 0 0 25px white, 0 0 5px white;
+}
+
+#mapel-besok {
+    display: flex;
+    justify-content: center;
+    border: 3px solid ;
+    width: 200px;
+    margin: auto;
+    border-radius: 4px;
+    background-color: #E5E0FF;
+    box-shadow: 11px 10px 1px 2px rgba(0, 0, 255, .2);
+}
+
+#hari {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    background-color: #E5E0FF;
+}
+
+#pelajaran {
+    padding-top: 25px;
+    background-color: #E5E0FF;
+}
+
+#inside-mapel {
+    display: block;
+    margin: 10px 0px;
+}
+
