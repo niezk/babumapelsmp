@@ -31,11 +31,11 @@ let isi = ""
 const refreshbut = document.querySelector("#refresh");
 var a = false
 refreshbut.addEventListener('click', function(){
-    if (a === true ) {
-        a = false;
+    if (a === false ) {
+        a = true;
         mapelawal()
     } else {
-        a = true;
+        a = false;
         mapelchange()
     }
     console.log(a)
